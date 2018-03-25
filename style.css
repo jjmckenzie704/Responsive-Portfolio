@@ -10,9 +10,9 @@ body {
 }
 
 img {
-    width: 200px;
+    width: 65px;
     margin-bottom: 5px;
-    height: 200px;
+    height: 60px;
 }
 .main-container{
     width: 550px;
@@ -192,3 +192,21 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+#sidebar {
+    float: both;
+    float: right;
+    
+}
+@media screen and (max-width: 960px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px){
+    #masthead { 
+        float: none;
+        width: 100%;
+    }
+}
+    
